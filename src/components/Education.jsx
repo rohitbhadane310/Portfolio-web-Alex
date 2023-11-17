@@ -11,7 +11,6 @@ const Education = () => {
       <div className=" bg-white p-5 rounded-md">
         <EducationCard />
         <EducationCard />
-        <EducationCard />
       </div>
     </div>
   );

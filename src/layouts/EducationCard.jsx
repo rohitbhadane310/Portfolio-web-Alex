@@ -2,7 +2,7 @@ import React from "react";
 
 const EducationCard = () => {
   return (
-    <div className=" flex flex-row py-2">
+    <div className=" flex flex-col lg:flex-row py-2">
       <div className=" w-2/4">
         <h2 className=" font-semibold">Coding Course</h2>
         <div className="mt-2">

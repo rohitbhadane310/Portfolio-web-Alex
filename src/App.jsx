@@ -5,6 +5,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
+import Portfolio from "./components/Portfolio";
 
 const App = () => {
   return (
@@ -30,6 +31,10 @@ const App = () => {
 
         <div id="experience">
           <Experience />
+        </div>
+
+        <div id="portfolio">
+          <Portfolio/>
         </div>
       </main>
     </div>
