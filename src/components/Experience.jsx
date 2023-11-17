@@ -9,8 +9,8 @@ const Experience = () => {
       </h1>
 
       <div className=" bg-white p-5 rounded-md">
-        <EducationCard />
-        <EducationCard />
+        <EducationCard title="Lead Web Designer" />
+        <EducationCard title="Junior Web Designer" />
       </div>
     </div>
   );

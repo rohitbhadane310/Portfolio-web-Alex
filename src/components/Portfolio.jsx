@@ -13,7 +13,7 @@ const Portfolio = () => {
         Portfolio
       </h1>
 
-      <div className=" flex items-center justify-center flex-wrap gap-10 ">
+      <div className=" flex items-center justify-center flex-wrap gap-10 pb-5 lg:pb-0">
         <div className=" w-full lg:w-1/4">
           <img
             className="transform transition-transform duration-300 hover:scale-110 rounded-md cursor-pointer"

@@ -6,6 +6,7 @@ import Services from "./components/Services";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -34,9 +35,11 @@ const App = () => {
         </div>
 
         <div id="portfolio">
-          <Portfolio/>
+          <Portfolio />
         </div>
       </main>
+
+      <Footer />
     </div>
   );
 };

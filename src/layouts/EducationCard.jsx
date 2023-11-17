@@ -1,17 +1,17 @@
 import React from "react";
 
-const EducationCard = () => {
+const EducationCard = (props) => {
   return (
-    <div className=" flex flex-col lg:flex-row py-2">
-      <div className=" w-2/4">
-        <h2 className=" font-semibold">Coding Course</h2>
+    <div className=" flex flex-col lg:flex-row py-4">
+      <div className=" w-full lg:w-2/4">
+        <h2 className=" font-semibold">{props.title}</h2>
         <div className="mt-2">
           <p>Student</p>
           <p>Jan 1016 - Dec 2021</p>
         </div>
       </div>
       <div>
-        <h2 className=" font-semibold">Certificate of web training</h2>
+        <h2 className=" font-semibold mt-2 lg:mt-0">Certificate of web training</h2>
         <p className=" mt-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
           dolor incidunt quo, nulla dolore molestiae esse animi hic, placeat
